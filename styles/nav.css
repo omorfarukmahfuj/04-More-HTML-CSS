@@ -1,4 +1,4 @@
-nav ul {
+nav>ul {
   display: flex;
 }
 
@@ -15,4 +15,17 @@ nav li a {
 
 nav li:hover {
   background-color: lightgray;
+}
+
+/* Nested Menu */
+
+nav li .dropdown {
+  display: none;
+}
+
+nav li:hover .dropdown {
+  display: block;
+  position: absolute;
+  background-color: lightyellow;
+  padding: 0;
 }
