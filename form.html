@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Form</title>\
+  <style>
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Welcome to Pitha Ghor</h2>
+  <form>
+    <label for="name">Your Name
+      <input id="name" type="text" placeholder="Your Name">
+    </label>
+
+    <label for="email">Your Email
+      <input id="email" type="email" placeholder="Your Email">
+    </label>
+
+    <label for="phone">Your Number
+      <input id="phone" type="number" placeholder="Your Number">
+    </label>
+
+    <fieldset>
+      <legend>Pick One Pitha</legend>
+      <label for="chitoy">
+        <input type="radio" name="pitha" id="chitoy">
+        Chitoy
+      </label>
+      <label for="vapa">
+        <input type="radio" name="pitha" id="vapa">
+        Vapa
+      </label>
+      <label for="patishapta">
+        <input type="radio" name="pitha" id="patishapta">
+        Patishapta
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Select one or more Vorta</legend>
+      <label for="sorisha">
+        <input type="checkbox" name="vorta" id="sorisha">
+        Sorisha
+      </label>
+      <label for="shutki">
+        <input type="checkbox" name="vorta" id="shutki">
+        Shutki
+      </label>
+      <label for="kalojira">
+        <input type="checkbox" name="vorta" id="kalojira">
+        Kalojira
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Special Instruction</legend>
+      <textarea name="" id="" cols="80" rows="5"></textarea>
+    </fieldset>
+    <br>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+
+  </form>
+</body>
+
+</html>
