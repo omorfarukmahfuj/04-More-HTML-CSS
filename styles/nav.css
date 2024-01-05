@@ -27,5 +27,5 @@ nav li:hover .dropdown {
   display: block;
   position: absolute;
   background-color: lightyellow;
-  padding: 0;
+  padding-left: 10px;
 }
